@@ -1,0 +1,96 @@
+body {
+    background-color: #F8F8FF;
+}
+.navFlex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+    background-color: #6ABD95;
+    }
+#Navbar>.navFlex > h3 {
+    color: white;
+}
+.searchFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+.Line {
+    height: 10px;
+}
+
+ #NewArrivals {
+    background-color: white;
+    margin-bottom: 10px;
+ }
+
+.containerNewArrivals {
+  display: flex;
+  flex-direction: row;
+  max-height: 140px; /* Set the maximum height for the container */
+  overflow-y: auto;
+  }
+  
+  .content {
+  
+    min-width: 100px;
+    height: 140px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8FF;
+  }
+  #NewArrivals h5 {
+  
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+  }
+ 
+
+  #info > .containerInfo {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #6ABD95;
+    color: white;
+    height: 40px;
+    padding-top: 10px;
+  }
+  .containerPC {
+   
+    margin-bottom: 40px;
+  }
+ #productCards button {
+  margin-right: 5px;
+ }
+
+ .navbarBottom {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-content: center;
+  height: 50px;
+  background-color: #6ABD95;
+  color: white;
+  margin-bottom: 0px;
+  padding-top: 10px;
+ }
+ .navbarBottom > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+ }
